@@ -21,3 +21,12 @@ Two components of execution context
 
 -> Block Space: what variables and functions we can access inside a block is called block space.
 Shadowing is if we have the same variable (with var) outside the block , then the variable inside the block will overwrite the value of outside variable and now the value of variable has changed. This is because they has pointed the same memory space i.e global. Refer 'file1'
+
+-> Closure: A function bind together with its lexical environment or lexical scope. When we return a function from a function , then it returns the that whole function with its lexical environment.
+USES OF CLOSURES:
+1. Module design pattern
+2. Currying
+3. Functions like once
+4. Maintaining state in async world
+5. setTimeouts
+6. Iterators
