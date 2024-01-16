@@ -46,3 +46,7 @@ USES OF CLOSURES:
 -> Named Function Expression: When we used name in 'function expression' instead of anonymous function.
 
 -> First Class Function: The ability of functions to be used as a value or can be passed in a another function and can be return from another function. All together is called first class function.
+
+-> Callback Functions: These are given as a arguments to some another function and are executed at a later time, often in response to future events or some asynchronous tasks.
+
+-> Microtask Queue: This queue has higher priority than callback queue. All the functions come from promises go inside this queue.
