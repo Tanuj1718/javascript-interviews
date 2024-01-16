@@ -30,3 +30,19 @@ USES OF CLOSURES:
 4. Maintaining state in async world
 5. setTimeouts
 6. Iterators
+
+
+                        DIFFERENT TYPES OF FUNCTIONS
+
+-> Function Statement: A normal function which we make. Refer 'file1'. 
+
+-> Function Expression: function is assigned in a variable or function acts as a value. Refer 'file1'
+"DIFFERENCE BETWEEN ABOVE TWO IS HOISTING"
+
+-> Function Declaration: Function statement are known as function declaration.
+
+-> Anonymous Function: A function without name is anonymous function. It does not have their own identity. It is used where function used as a value (function expression).
+
+-> Named Function Expression: When we used name in 'function expression' instead of anonymous function.
+
+-> First Class Function: The ability of functions to be used as a value or can be passed in a another function and can be return from another function. All together is called first class function.
