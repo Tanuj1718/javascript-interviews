@@ -51,3 +51,12 @@
 //     }
 // }
 // console.log(b());
+
+
+//FILTER
+// const arr = [2,5,4,3,7,9]
+// function isOdd(x){   //takes each element x 
+//     return x%2
+// }
+// const Output = arr.filter(isOdd)
+// console.log(Output) //print an array containing odd values

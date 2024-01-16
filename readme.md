@@ -49,4 +49,12 @@ USES OF CLOSURES:
 
 -> Callback Functions: These are given as a arguments to some another function and are executed at a later time, often in response to future events or some asynchronous tasks.
 
+-> Higher Order Function: If a function takes another function as a parameter and returns a function , then it is called higher order function.
+
 -> Microtask Queue: This queue has higher priority than callback queue. All the functions come from promises go inside this queue.
+
+-> JIT Compilation: JS can use interpreter as well as compiler so it makes it a Just In Time(JIT) compilation language.
+
+-> map(): It takes transformation logic (or function) as an argument to convert every element of an array into a new element and return new array.
+
+-> filter(): It also takes a function as an argument and returns the specific elements according to the function. See example in 'file1'.
