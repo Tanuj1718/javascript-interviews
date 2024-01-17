@@ -76,7 +76,31 @@
 //  })
 
  const GITHUB_API = "https://api.github.com/users/Tanuj1718"
- const user = fetch(GITHUB_API)
- user.then(function(data){
-    console.log(data)
- })
+
+//  user.then(function(data){
+//     console.log(data)
+//  })
+//MODERN FORM 
+// async function handlePromise(){
+//     const user = await fetch(GITHUB_API)
+//     const result = await user.json()
+//     console.log(result)
+// }
+// handlePromise()
+
+//CONSTRUCT A PROMISE
+// const cart = ["shoes", "pants", "kurta"]
+// const promise =  createOrder(cart);
+
+// promise.then(function(){
+//    proceedToPayment(orderId)
+// })
+
+// function createOrder(cart){
+//    const pr = new Promise(function(resolve, reject){ //construct a promise with Promise constructor
+//       //createOrder
+
+//    })
+//    return pr;
+// }
+

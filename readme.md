@@ -70,3 +70,9 @@ USES OF CLOSURES:
 -> Inversion of Control: When we lose the control of our code during using callback. It means that we are blindly trusting on an API that it will give us the data and call our callback function after some time. But sometimes, this trust breaks...
 
 -> Promise: It is an object representing the eventual completion or failure of an asynchronous operation.
+
+-> async: It always returns a promise. If we return a value then this function will automatically wrapped that value into a promise and then returned it.
+
+-> await: This word is used in front of a promise. This keyword is only used inside an async function.
+
+-> fetch(): It returns a response object which is itself a promise. So we convert that data into json(data.json())
