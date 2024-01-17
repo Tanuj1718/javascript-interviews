@@ -60,3 +60,23 @@
 // }
 // const Output = arr.filter(isOdd)
 // console.log(Output) //print an array containing odd values
+
+
+//CALLBACKS AND PROMISES
+//  const cart = ["bat", "flowers", "frames"]
+//  createOrder(cart, function(orderId){ //we have given callback function to the api, trusting that it will call our function. But it can cause inversion of control
+//     proceedToPayment(orderId)
+//  })
+
+ //In the above code , we are passing callback function in another function but in the below code we are attaching callback function with the promise.
+
+//  const promise = createOrder(cart);
+//  promise.then(function (orderId){
+//     proceedToPayment(orderId)
+//  })
+
+ const GITHUB_API = "https://api.github.com/users/Tanuj1718"
+ const user = fetch(GITHUB_API)
+ user.then(function(data){
+    console.log(data)
+ })

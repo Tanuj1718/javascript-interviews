@@ -62,9 +62,11 @@ USES OF CLOSURES:
 -> filter(): It also takes a function as an argument and returns the specific elements according to the function. See example in 'file1'.
 
 
--> Callback: Async operations in javascript is possible because of callback functions.
+-> Callback: Async code in javascript is written with callback functions.
 
                     DISADVANTAGES OF CALLBACK   
 -> Callback Hell: When we have a large codebase and API depends on one after another, then we can have callback after callback. It is unmaintainable.
 
 -> Inversion of Control: When we lose the control of our code during using callback. It means that we are blindly trusting on an API that it will give us the data and call our callback function after some time. But sometimes, this trust breaks...
+
+-> Promise: It is an object representing the eventual completion or failure of an asynchronous operation.
