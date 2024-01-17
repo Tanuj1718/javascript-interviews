@@ -1,3 +1,5 @@
+                    TIME, TIDE AND JAVASCRIPT...WAITS FOR NONE...!
+
 -> Execution context: Everything in JavaScript happens inside an execution context.
 
 Two components of execution context
@@ -58,3 +60,11 @@ USES OF CLOSURES:
 -> map(): It takes transformation logic (or function) as an argument to convert every element of an array into a new element and return new array.
 
 -> filter(): It also takes a function as an argument and returns the specific elements according to the function. See example in 'file1'.
+
+
+-> Callback: Async operations in javascript is possible because of callback functions.
+
+                    DISADVANTAGES OF CALLBACK   
+-> Callback Hell: When we have a large codebase and API depends on one after another, then we can have callback after callback. It is unmaintainable.
+
+-> Inversion of Control: When we lose the control of our code during using callback. It means that we are blindly trusting on an API that it will give us the data and call our callback function after some time. But sometimes, this trust breaks...
