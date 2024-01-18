@@ -33,6 +33,8 @@ USES OF CLOSURES:
 5. setTimeouts
 6. Iterators
 
+-> Methods: If we create a function inside an object, then the function is called a method of that object.
+
 
                         DIFFERENT TYPES OF FUNCTIONS
 
@@ -76,3 +78,6 @@ USES OF CLOSURES:
 -> await: This word is used in front of a promise. This keyword is only used inside an async function.
 
 -> fetch(): It returns a response object which is itself a promise. So we convert that data into json(data.json())
+
+-> this keyword: It always has the value of global objects in global space. In browsers global object is window.
+2. Inside a function: the value of this keyword depends on strict/ non-strict mode. 
